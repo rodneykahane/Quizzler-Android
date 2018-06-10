@@ -114,7 +114,7 @@ public class MainActivity extends Activity {
     private void checkAnswer(boolean userSelection){
 
         boolean correctAnswer = mQuestionBank[mIndex].isAnswer();
-poop
+
         if(userSelection==correctAnswer){
             Toast.makeText(getApplicationContext(),R.string.correct_toast,Toast.LENGTH_SHORT).show();
             mScore++;
