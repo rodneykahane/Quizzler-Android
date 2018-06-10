@@ -103,7 +103,7 @@ public class MainActivity extends Activity {
                 }
             });
             alert.show();
-        }
+        }//
 
         mQuestion = mQuestionBank[mIndex].getQuestionID();
         mQuestionTextView.setText(mQuestion);
