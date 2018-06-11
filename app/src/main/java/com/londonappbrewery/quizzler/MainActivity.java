@@ -56,6 +56,7 @@ public class MainActivity extends Activity {
             mIndex = 0;
         }//end if/else
 
+        //setting up buttons, main text view, and progress bar
         mTrueButton = findViewById(R.id.true_button);
         mFalseButton = findViewById(R.id.false_button);
         mQuestionTextView = findViewById(R.id.question_text_view);
